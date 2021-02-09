@@ -318,4 +318,4 @@ Camper.propTypes = {
   name: PropTypes.string.isRequired
 };
 
-//
+// Create a stateful component
