@@ -1,6 +1,6 @@
 const JSX = <h1>Hello JSX!</h1>;
 
-const JSX = 
+const JSX = (
   <div>
     {/*This JSX code wont work because I don't have node.js installed */}
     <h1>Heading</h1>
@@ -11,4 +11,6 @@ const JSX =
       <li>some form of cheese</li>
     </ul>
   </div>
+);
 
+ReactDOM.render(JSX, document.getElementById('challenge-node'))
