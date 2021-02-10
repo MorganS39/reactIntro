@@ -353,3 +353,23 @@ class MyComponent extends React.Component {
 };
 
 // Render state in the user interface another way
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: 'freeCodeCamp'
+    }
+  }
+  render() {
+    // Change code below this line
+    const name = this.state.name;
+    // Change code above this line
+    return (
+      <div>
+        <h1>{name}</h1>
+      </div>
+    );
+  }
+};
+
+//
