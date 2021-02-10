@@ -762,3 +762,17 @@ class Colorful extends React.Component {
 };
 
 // add inline styles in react
+const styles = {
+  color: "purple",
+  fontSize: 40,
+  border: "2px solid purple"
+};
+class Colorful extends React.Component {
+  render() {
+    return (
+      <div style={styles}>Style Me!</div>
+    );
+  }
+};
+
+// advanced JS in React render method
