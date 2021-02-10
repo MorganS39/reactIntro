@@ -319,3 +319,20 @@ Camper.propTypes = {
 };
 
 // Create a stateful component
+class StatefulComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "Name"
+    }
+  }
+  render() {
+    return (
+      <div>
+        <h1>{this.state.name}</h1>
+      </div>
+    );
+  }
+};
+
+// Render state in the user interface
